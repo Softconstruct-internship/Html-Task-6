@@ -43,6 +43,7 @@
     .skill_element_name {
         font-size: $navbar_skill_fontsize;
         font-weight: $navbar_skill_fontweight;
+        padding: 10px 0px 10px;
     }
     .percent {
         .percent_value {
@@ -54,19 +55,20 @@
     }
 }
 .main_skills_container_language {
+    .skills-header-languages {
+        padding: 40px 0 20px 0;
+    }
     .percent {
         .percent_value {
             height: 25px;
             background-color: $background-color-skill;
         }
-       
     }
-    .skill_element_name{
+    .skill_element_name {
         padding: 20px 0 20px 0;
     }
 
-   .skills-header-languages {
-        font-size: 18px!important;
-        padding: 20px 0 20px 0;
+    .skills-header-languages {
+        font-size: 18px !important;
     }
 }
