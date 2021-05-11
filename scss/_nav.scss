@@ -44,4 +44,29 @@
         font-size: $navbar_skill_fontsize;
         font-weight: $navbar_skill_fontweight;
     }
+    .percent {
+        .percent_value {
+            color: $color-skill;
+            background-color: $background-color-skill;
+            font-size: 12px !important;
+            margin: 10px 10px 10px 0 !important;
+        }
+    }
+}
+.main_skills_container_language {
+    .percent {
+        .percent_value {
+            height: 25px;
+            background-color: $background-color-skill;
+        }
+       
+    }
+    .skill_element_name{
+        padding: 20px 0 20px 0;
+    }
+
+   .skills-header-languages {
+        font-size: 18px!important;
+        padding: 20px 0 20px 0;
+    }
 }

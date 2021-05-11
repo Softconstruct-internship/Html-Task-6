@@ -35,11 +35,66 @@
   .main-skills-container .skill_element_name {
     font-size: 15px;
     font-weight: normal; }
+  .main-skills-container .percent .percent_value {
+    color: #fff !important;
+    background-color: #009688 !important;
+    font-size: 12px !important;
+    margin: 10px 10px 10px 0 !important; }
+
+.main_skills_container_language .percent .percent_value {
+  height: 25px;
+  background-color: #009688 !important; }
+
+.main_skills_container_language .skill_element_name {
+  padding: 20px 0 20px 0; }
+
+.main_skills_container_language .skills-header-languages {
+  font-size: 18px !important;
+  padding: 20px 0 20px 0; }
+
+.work_experience {
+  padding: 0.01em 16px;
+  color: #757575 !important; }
+  .work_experience h1 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    font-size: 30px;
+    padding-left: 50px;
+    font-weight: 400;
+    margin: 10px 0; }
+
+.section_element {
+  padding: 30px 0 30px 0; }
+  .section_element p {
+    font-size: 15px;
+    line-height: 1.5em; }
+  .section_element .text {
+    color: black !important; }
+
+.section_experience_header {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+.section_experience_date {
+  color: #009688 !important;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+.current_date {
+  background-color: #009688;
+  color: #fff;
+  border-radius: 4px;
+  padding: 3px 8px; }
 
 * {
   margin: 0;
   font-family: sans-serif;
   max-width: 1400px; }
+
+body {
+  background-color: #f1f1f1 !important; }
 
 .main_container {
   padding: 20px;
@@ -54,7 +109,6 @@
   grid-area: left_column;
   box-shadow: 1px 2px 9px #333; }
   .left_column .percent {
-    margin: 10px;
     border-radius: 50px;
     box-sizing: border-box;
     background-color: #f1f1f1; }
@@ -72,7 +126,7 @@
 
 .work_experience {
   grid-area: work_experience;
-  background-color: #9a9a9a; }
+  background-color: white; }
 
 .education {
   grid-area: education;

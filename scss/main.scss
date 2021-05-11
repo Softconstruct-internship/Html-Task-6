@@ -1,12 +1,17 @@
 @import "variables";
 @import "mixins";
 @import "nav";
+@import "work-experience";
+@import "education";
 
 * {
   margin: 0;
   font-family: sans-serif;
   max-width: 1400px;
-  
+ 
+}
+body{
+  background-color: #f1f1f1!important;
 }
 
 .main_container {
@@ -35,7 +40,7 @@
 
 .work_experience {
   grid-area: work_experience;
-  background-color: rgb(154, 154, 154);
+  background-color: white;
 }
 
 .education {
