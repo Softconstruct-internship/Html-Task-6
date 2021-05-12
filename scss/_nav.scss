@@ -27,6 +27,9 @@
     margin-bottom: 10px;
     .desc_item {
         margin: 8px 0;
+       .desc_item_name{
+            padding-left: 10px;
+        }
     }
 }
 
@@ -36,6 +39,8 @@
         font-size: $navbar_fontsize;
         font-weight: $navbar_fontWeight;
         margin-bottom: $navbar_marginbottom;
+        display: inline-block;
+        padding-left: 10px;
     }
     .navbar_header_languages {
         margin-top: 25px;
@@ -70,5 +75,7 @@
 
     .skills-header-languages {
         font-size: 18px !important;
+        display: inline-block;
+        padding-left: 10px;
     }
 }
